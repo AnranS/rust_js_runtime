@@ -1,0 +1,9 @@
+[package]
+name = "rust_js_runtime"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+deno_core = "0.292.0"
+serde_json = "1.0.120"
+tokio = { version = "1.38.0", features = ["full"] }
