@@ -2,6 +2,10 @@
 name = "rust_js_runtime"
 version = "0.1.0"
 edition = "2021"
+authors = ["Anrans <1040146674@qq.com>"]
+license = "MIT"
+description = "A light lib light you can run js in rust."
+
 
 [dependencies]
 deno_core = "0.292.0"
